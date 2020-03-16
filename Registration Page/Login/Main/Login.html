@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="../../../CSS/style111.css">
+	<link rel="stylesheet" type="text/css" href="../../../CSS/Input_styles.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="../../Title Icon/compass.png">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<title>Login</title>
+<style>
+.login-wrap {
+max-width: 800px;
+margin: 0 auto;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+padding: 20px 20px 150px 20px;
+position: relative;
+}
+.little-big-header
+{
+font-size:50px;
+margin-top: 0px;
+}
+.login_button
+{
+background-color: #47d147;
+color: white;
+padding: 10px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius:10px;
+}
+.sign_block
+{
+background-color: #333333;
+margin-top: 20px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+padding:5px;
+}
+a:link {
+    color: #1ad1ff;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color: #1ad1ff;
+}
+a:active {
+    color: white;
+}
+body {
+
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+background-image: url("Images/landscape-mountains-nature-clouds.jpg");
+}
+</style>
+</head>
+
+<body style="margin-top: 0px;margin-bottom: 0px;color:white">
+<!-- ============================================================================================================ -->
+<div class="login-wrap">
+<header>
+    <h1 style="margin-bottom: 0.;margin-bottom: 0px;">Welcome to Our Login Page</h1>
+   <h2 class="little-big-header">Log in!</h2>
+</header>    
+<form action="../../Admin/Main/Admin_Page.php" method="post" >
+	<br>
+	<center>
+	
+	<p>
+	<input type="text" name="username" placeholder="Username or Email Id ...." style="border-bottom-width: 3px;border-top-width: 3px;width:300px;">
+	</p>
+	
+	<p>
+	<input type="text" name="password" placeholder="Password ...." style="border-bottom-width: 3px;border-top-width: 3px;width:300px;">
+	</p>
+	
+	<input type="checkbox" name="keep_me_logged_in">&nbsp;&nbsp;
+	Keep me logged in
+
+
+	<p>
+	<br>
+	<button class="login_button">Login</button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#">Forgot Password?</a>
+	</p>
+	
+	<div class="sign_block">
+	<p>
+	Need an account?<a href="../../Sign Up/Main/Sign_up.html"> Sign up now!</a>
+	</p>
+	</div>
+	
+</center>
+</form>
+</div>
+<!-- ============================================================================================================ -->
+<footer>
+<div class="creds">
+<p style="margin-bottom: 5px;margin-top: 5px;">Copyright © 2016 ·</p>
+</div>
+</footer>
+
+</body>
+</html>	

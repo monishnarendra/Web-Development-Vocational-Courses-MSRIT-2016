@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="../../../CSS/style111.css">
+	<link rel="stylesheet" type="text/css" href="../../../CSS/Input_styles.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="../../../Title Icon/compass.png">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<title>Sign UP</title>
+<style>
+#submit_button
+{
+background-color: #47d147;
+color: white;
+padding: 10px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius:10px;
+}
+.login-wrap {
+max-width: 800px;
+margin: 0 auto;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+padding: 20px 20px 150px 20px;
+position: relative;
+}
+body
+{
+margin-top: 0px;
+margin-bottom: 0px;
+color:white;
+background-size: 100%;
+background-repeat:no repeat;
+background-attachment:fixed;
+background-image: url("Images/pexels-photo-122748.jpeg");
+}
+</style>
+</head>
+
+<body>
+
+<!-- ============================================================================================================ -->
+<div class="login-wrap">
+
+<header>
+   <h2 class="little-big-header">Sign UP!!</h2>
+</header>    
+
+<hr>
+
+<br>
+<form action="../php/Sign__Up.php" method="post">
+<div style="width: 170px;float: left;">
+	<p  style="margin-top: 25px;">	
+		Name :
+	</p>
+	<p style="margin-top: 40px;">	
+		DOB :
+	</p>
+
+	<p style="margin-top: 35px;">	
+		Contact :
+	</p>
+
+	<p style="margin-top: 95px;">	
+		Create Password :
+	</p>
+	
+	<p style="margin-top: 35px;">	 
+		Comfirm Password :
+	</p>
+
+	<p style="margin-top: 30px;">	 
+		Gender :		
+	</p>
+
+	<P style="margin-top: 30px;">
+		City / Town :
+	</p>
+
+	<p style="margin-top: 36px;">
+		Pincode :
+	</p>
+
+	
+	<p style="margin-top: 30px;">	
+		Address :
+	</p>
+
+	<p style="margin-top: 93px;">
+		Choose a question :
+	</p>
+</div>
+
+<!-- ============================================================================================================ -->
+
+<div style="float: left; width: 330px;">
+
+	<p>
+		<input type="text" name="first_name" placeholder="First Name :" style="border-bottom-width: 3px;border-top-width: 3px;width:300px;">
+	</p>
+	
+	<p>
+		<input type="date" name="dob" style="border-bottom-width: 3px;border-top-width: 3px;">
+	</p>
+
+	<p>
+		<input type="email" name="email" placeholder="Email ID : Name@example.com" style="border-bottom-width: 3px;border-top-width: 3px;width:500px;">
+	</p>
+
+	<p>
+		<input type="number" name="phone" placeholder="Phone (xxx) xxxx xxxx" style="border-bottom-width: 3px;border-top-width: 3px;width:500px;">
+	</p>
+
+	<p>
+		<input type="password" name="password1" style="border-bottom-width: 3px;border-top-width: 3px;">
+	</p>
+
+	<p>
+		<input type="password" name="confirm_password" style="border-bottom-width: 3px;border-top-width: 3px;">
+	</p>
+
+	<p>
+		<select name="gender" style="padding:5px">
+			<option>I am</option>
+     			<option value="male">Male</option>
+     			<option value="female">Female</option>
+    		</select>
+	</p>
+
+	<p>
+		<input type="text" name="city" style="border-bottom-width: 3px;border-top-width: 3px;">
+	</p>
+
+	<p>
+		<input type="number" name="pincode" style="border-bottom-width: 3px;border-top-width: 3px;">	
+	</p>
+
+	<p>
+		<textarea rows="4" cols="50" name="address"></textarea>
+	</p>
+
+	<p>
+ 		<select name="security_questions" style="padding:5px">
+	 		<option>Pick up a Question</option>
+     			<option value="1">What is the last name of the teacher who gave you your first failing grade?</option>
+     			<option value="2">What was the name of your elementary / primary school?</option>
+      			<option value="3">In what city or town does your nearest sibling live?</option>
+			<option value="4">What time of the day were you born? (hh:mm)</option>
+			<option value="5">What is your pet’s name?</option>
+		</select>
+	</p>
+
+	<p>	
+		<input type="text" name="answer_for_sq" placeholder="Your Answer" style="border-bottom-width: 3px;border-top-width: 3px;width:500px;">	
+	</p>
+</div>
+<!-- ============================================================================================================ -->
+	
+<div style="float: left; width: 100px;">
+	<p> 
+		<input type="text" name="last_name" placeholder="Last Name :" style="border-bottom-width: 3px;border-top-width: 3px;width:300px;">
+	</p>	
+</div>
+<!-- ============================================================================================================ -->
+
+<div style="float: left; width: 800px;">
+
+	<br>
+	<input type="checkbox" name="accepted_terms"> 
+	I have Accepted the Terms & Conditions
+	<br><br><br>
+	<p>
+	<center><button id="submit_button">SUBMIT</button></center>
+	</p>
+<br><br>
+</div>
+</form>
+</div>
+<!-- ============================================================================================================ -->
+
+<footer>
+<div class="creds">
+<p style="margin-bottom: 5px;margin-top: 5px;">Copyright © 2016 ·</p>
+</div>
+</footer>
+
+</body>
+</html>	
