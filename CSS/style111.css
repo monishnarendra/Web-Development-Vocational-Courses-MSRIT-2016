@@ -1,0 +1,105 @@
+﻿.drop-button {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .drop-button {
+    background-color: pink;
+}
+
+#ul1
+{
+position: fixed;
+list-style-type:none;
+background-color:#333333;
+}
+
+li a:hover:not(.active) {
+    background-color: pink;
+}
+li{
+ display:inline ;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+    text-decoration: none;
+}
+input[type=text]
+{
+width:250px;
+border:2px solid white;
+border-radius:10px;
+background-color:white;
+padding: 10px 5px 5px 10px;
+}
+
+.apple {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.creds
+{
+background-color:#ff0080;
+color:white;
+clear:both;
+text-align:center;
+padding:1px;
+font-size:15px;
+}
+.first-backgroundimg
+{
+background-image: url('Explore.jpg');
+background-repeat:no-repeat;
+
+}
+.city {display:none;
+}
+
+.margin_110px
+{
+margin-left: 110px;
+margin-right: 110px;
+}
+.picture 
+{
+display:none;
+}

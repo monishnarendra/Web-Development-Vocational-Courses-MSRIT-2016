@@ -1,0 +1,10 @@
+#myImg:hover 
+{
+opacity: 0.7;
+}
+#myImg
+{
+padding: 20px;
+border-radius: 15px 50px;
+border: 2px solid #73AD21;
+}

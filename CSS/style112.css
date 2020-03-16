@@ -1,0 +1,77 @@
+.left 
+{
+position: absolute;
+left: 100px;
+width: 440px;    
+background:black;
+color:white;
+padding: 50px;
+}
+.right 
+{
+position: absolute;
+right: 200px;
+width: 440px;    
+background:black;
+color:white;
+padding: 50px;
+}
+.first-backgroungimg header
+{
+padding: 200px;
+position: relative;
+z-index: 2;
+color:black;
+}
+.first-backgroundimg img
+{
+background-size: 100%;	
+color:#ffff4d;
+opacity:0.4;	
+background-repeat:no repeat;
+position:absolute;
+background-attachment:fixed;
+}
+.courses
+{
+background-image: url('banner-dc.jpg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+.account
+{
+background-image: url('travelimg.jpg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+.saveMoney
+{
+background-image: url('savefortravel.jpg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+.getinspired
+{
+background-image: url('shutterstock.jpg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+
+.backgroundimg
+{
+background-image: url('solotravel.jpeg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+.geartech
+{
+background-image: url('dsc.jpg');
+background-size: 100%; 
+background-repeat:no repeat;
+background-attachment:fixed;
+}
